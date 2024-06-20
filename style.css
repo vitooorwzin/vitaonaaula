@@ -1,6 +1,4 @@
-body {
-    background-color: rgb(255, 0, 0);
-    
-}
-
-<img class=”cabecalho-imagem” <img src=./img/Qual-a-tecnologia.jpg>
+<img class=”cabecalho-imagem” src="./img/Qual-a-tecnologia.jpg"
+.cabecalho-imagem{
+    width: 20%;
+    }
