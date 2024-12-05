@@ -1,6 +1,6 @@
-const sidebar = document.querySelector('.sidebar');
-const toggleButton = document.querySelector('.toggle-button');
-
-toggleButton.addEventListener('click', () => {
-    sidebar.classList.toggle('active');
-});
+function toggleMenu() {
+    const menu = document.getElementById("menu-lateral");
+    const conteudo = document.getElementById("conteudo");
+    menu.classList.toggle("open-menu");
+    conteudo.classList.toggle("menu-aberto");
+}
