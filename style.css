@@ -1,12 +1,11 @@
 body {
-    width: 100%;
-    height: 100%;
-    background-image:url("/.img/Qual-a-tecnologia") ;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
 }
-h3{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 25px !important;
+
+.destaques {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    height: 500px;
 }
