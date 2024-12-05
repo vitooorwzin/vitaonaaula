@@ -26,6 +26,25 @@ body {
     z-index: 10;
 }
 
+.menu-lateral .logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-lateral .logo h2 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.menu-lateral .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral .menu li {
+    text-align: center;
+}
+
 .menu-lateral a {
     padding: 12px 16px;
     text-decoration: none;
@@ -37,15 +56,6 @@ body {
 
 .menu-lateral a:hover {
     background-color: #575757;
-}
-
-.menu-lateral .logo {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.menu-lateral .logo h2 {
-    color: #fff;
 }
 
 /* Conteúdo principal */
